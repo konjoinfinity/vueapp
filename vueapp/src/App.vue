@@ -1,7 +1,11 @@
 <template>
   <div id="app">
     <img alt="Vue logo" src="./assets/logo.png" />
-    <HelloWorld msg="Test" />
+    <HelloWorld msg="News App" />
+    <div id="nav">
+      <router-link to="/news">Home</router-link>
+      <router-link to="/news">News</router-link>
+    </div>
   </div>
 </template>
 
