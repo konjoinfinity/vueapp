@@ -3,9 +3,10 @@
     <img alt="Vue logo" src="./assets/logo.png" />
     <HelloWorld msg="News App" />
     <div id="nav">
-      <router-link to="/news">Home</router-link>
+      <router-link to="/home">Home</router-link>
       <router-link to="/news">News</router-link>
     </div>
+    <router-view />
   </div>
 </template>
 
