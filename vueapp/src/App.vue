@@ -9,11 +9,13 @@
 
 <script>
 import Home from "./components/Home.vue";
+import Navigation from "./components/Nav";
 
 export default {
   name: "App",
   components: {
-    Home
+    Home,
+    Navigation
   }
 };
 </script>
