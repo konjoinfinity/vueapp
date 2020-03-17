@@ -2,6 +2,10 @@
   <div class="NewsPage">
     <div class="jumbotron">
       <h2 class="display-3">News</h2>
+      <button
+        class="btn btn-danger btn-lg"
+        onclick="(function(){console.log('You are on the News Page')})()"
+      >Console Log</button>
     </div>
     <div class="list-group">
       <a
