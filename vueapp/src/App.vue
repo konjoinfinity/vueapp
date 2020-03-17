@@ -1,43 +1,16 @@
 <template>
-  <Navigation>
-    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
-      <a class="navbar-brand" href="#">Navbar</a>
-      <button
-        class="navbar-toggler"
-        type="button"
-        data-toggle="collapse"
-        data-target="#navbarColor01"
-        aria-controls="navbarColor01"
-        aria-expanded="false"
-        aria-label="Toggle navigation"
-      >
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarColor01">
-        <ul class="navbar-nav mr-auto">
-          <li class="nav-item active">
-            <a class="nav-link" href="#">
-              Home
-              <span class="sr-only">(current)</span>
-            </a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">News</a>
-          </li>
-        </ul>
-      </div>
-    </nav>
-  </Navigation>
+  <div id="app">
+    <h2>Konjo News</h2>
+    <router-view></router-view>
+    <router-link to="/">Home</router-link>
+    <router-link to="/news">News</router-link>
+  </div>
 </template>
 
 <script>
-// import Home from "./components/Home";
-import Navigation from "./components/Nav";
-
 export default {
-  name: "App",
-  components: {
-    Navigation
+  data() {
+    return {};
   }
 };
 </script>
