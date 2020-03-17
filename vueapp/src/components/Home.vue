@@ -2,11 +2,11 @@
   <div class="home">
     <div class="jumbotron">
       <h1 class="display-3">Welcome!</h1>
-      <p class="lead">View current events in real time and subscribe to stay even more in the loop.</p>
+      <p class="lead">View current events in real time and subscribe to stay in the loop.</p>
       <hr class="my-4" />
-      <p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
+      <p>Keep up to date with current events.</p>
       <p class="lead">
-        <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
+        <router-link class="btn btn-primary btn-lg nav-link" to="/news" role="button">Read the News</router-link>
       </p>
     </div>
   </div>
