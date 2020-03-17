@@ -7,7 +7,7 @@ import News from './components/News'
 Vue.use(VueRouter);
 
 const routes = [
-  { path: '/', component: Home },
+  { path: '/home', component: Home },
   { path: '/news', component: News }
 ]
 

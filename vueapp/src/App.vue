@@ -13,11 +13,10 @@
       >
         <span class="navbar-toggler-icon"></span>
       </button>
-
       <div class="collapse navbar-collapse" id="navbarColor01">
         <ul class="navbar-nav mr-auto">
           <li class="nav-item active">
-            <router-link class="nav-link" to="/">
+            <router-link class="nav-link" to="/home">
               Home
               <span class="sr-only">(current)</span>
             </router-link>
